@@ -12,6 +12,22 @@ if (navClose) {
         navMenu.classList.remove("show-menu");
     });
 }
+// SWEETALERT
+Swal.fire({
+    position: "top-end",
+    title: "¡Bienvenido a ROSE JOYERIA! Aqui podras ver nuestro catalo y hacer tus pedidos facil y rapido",
+    showConfirmButton: false,
+    timer: 7000
+    });
+function cargarBaseDeDatos() {
+    fetch("./data.json")
+        .then(response => response.json())
+        .then(data => {
+            baseDeDatos = data;
+            armarProductos();
+        })
+        .catch(error => console.error('Error al cargar la base de datos:', error));
+}
 const navLink = document.querySelectorAll(".nav__link");
 function linkAction() {
     const navMenu = document.getElementById("nav-menu");

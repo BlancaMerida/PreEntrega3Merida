@@ -1,0 +1,42 @@
+[
+    {"id": "trick",
+    "img":"./img/anillo.jpg",
+    "trick__title":"Anillo",
+    "trick__subtitle":"Candy",
+    "trick__price":"$11.99"
+    },
+
+    {"trick__content":"",
+    "img": "./img/anillos.jpg",
+    "trick__title": "Anillo", 
+    "trick__subtitle": "Accessory",
+    "trick__price": "$8.99"
+    },
+
+    {"trick__content":"",
+    "img":"./img/arete2.jpg",
+    "trick__title":"Arete",
+    "trick__subtitle":"Accessory",
+    "trick__price":"$15.99"
+    },
+
+    {"trick__content":"",
+    "img":"./img/aretes1.jpg",
+    "trick__title":"Arete",
+    "trick__subtitle":"Candy",
+    "trick__price":"$7.99"
+    },
+
+    {"trick__content":"",
+    "img":"./img/collares.jpg",
+    "trick__title":"Collares",
+    "trick__subtitle":"Candy",
+    "trick__price":"$19.99"
+    },
+    {"trick__content":"",
+    "img":"./img/pulseras.webp",
+    "trick__title":"Pulsera",
+    "trick__subtitle":"Accessory",
+    "trick__price":"$17.99"
+    }
+    ]
